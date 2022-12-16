@@ -1,0 +1,6 @@
+com/java/io/Resources.class
+com/java/sqlSession/SqlSessionFactory.class
+com/java/pojo/Configuration.class
+com/java/sqlSession/SqlSessionFactoryBuilder.class
+com/java/pojo/MappedStatement.class
+com/java/config/XmlConfigBuilder.class

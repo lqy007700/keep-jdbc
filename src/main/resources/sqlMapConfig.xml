@@ -1,0 +1,9 @@
+<configuration>
+    <dataSource>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///mybatis"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </dataSource>
+    <mapper resource="userMapper.xml"/>
+</configuration>

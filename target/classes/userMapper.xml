@@ -1,0 +1,9 @@
+<mapper namespace="com.dao.UserDao">
+    <select id="findAll" resultType="com.java.pojo.User">
+        select id,username from user
+    </select>
+
+    <select id="findOne" resultType="com.java.pojo.User" paramterType="com.java.pojo.User">
+        select id,username from user where id = #{id} and username = #{username}
+    </select>
+</mapper>
